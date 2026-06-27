@@ -8,7 +8,7 @@
  */
 
 const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-Flash-Lite:generateContent";
 
 export default async function handler(req, res) {
   // POST 요청만 허용
